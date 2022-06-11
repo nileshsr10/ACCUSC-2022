@@ -227,14 +227,7 @@
     .section-a3 {
         font-size: xx-small;
     }
-/* 
-    .card-width {
-        width: 30rem;
-    } */
 
-    /* .card-width p {
-        font-size: xx-small;
-    } */
     .pfsmall{
         font-size: xx-small;
     }
@@ -242,48 +235,3 @@
         font-size: large;
     }
 }
-
-
-/* #karyashala-id::before {
-        content: "";
-        background-image: url(./Images/bg-4.webp);
-        position: absolute;
-        background-repeat: repeat-y;
-        top: 2000px;
-        left: 0px;
-        z-index: -1;
-        opacity: 0.2;
-        height: 3000px;
-        width: 100vw;
-        z-index: -1;
-    } */
-
-/* #howToApply::before {
-        content: "";
-        background-image: url(./Images/bg-6.jpg);
-        background-size: cover;
-        background-repeat: repeat-y;
-        position: absolute;
-        top: 3430px;
-        left: 0px;
-        z-index: -1;
-        opacity: 0.16;
-        height: 1750px;
-        width: 100vw;
-        z-index: -1;
-    } */
-
-/* #AboutNITR::before {
-        content: "";
-        background-image: url(./Images/bg-5.jpg);
-        background-size: cover;
-        background-repeat: repeat-y;
-        position: absolute;
-        bottom: 2000px;
-        left: 0px;
-        z-index: -1;
-        opacity: 0.8;
-        height: 550px;
-        width: 100vw;
-        z-index: -1;
-    } */
