@@ -179,11 +179,6 @@
     background-repeat: no-repeat;
     position: absolute;
     top: 3430px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.16;
-    height: 1000px;
-    width: 100vw;
     z-index: -1;
 } */
 
@@ -193,6 +188,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+.prof-img{
+    height: 200px;
 }
 
 
