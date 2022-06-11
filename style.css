@@ -2,6 +2,9 @@
     background-color: rgba(101, 98, 98, 0.979);
     color: antiquewhite;
 }
+.cont1{
+   background-color:  rgba(101, 98, 98, 0.979);
+}
 /* section{
     color: antiquewhite;
 } */
@@ -63,9 +66,7 @@
     justify-content: space-between;
 }
 
-.card-width {
-    width: 30rem;
-}
+
 
 .section-a3 {
     height: 450px;
@@ -119,12 +120,14 @@
 .section-a1::before {
     content: "";
     background-image: url(./Images/bg-section-a1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 160px;
+    top: 80px;
     left: 0px;
     z-index: -1;
-    opacity: 0.2;
-    height: 400px;
+    opacity: 0.3;
+    height: 800px;
     width: 100vw;
     z-index: -1;
 }
@@ -206,7 +209,8 @@
 @media(max-width:767px) {
     #karyashala-id {
         justify-content: center;
-        margin-left: 70px;
+        margin-left: 10px;
+        width: 95%;
 
     }
 }
