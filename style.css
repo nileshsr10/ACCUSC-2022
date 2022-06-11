@@ -1,3 +1,27 @@
+.container {
+    background-color: rgba(101, 98, 98, 0.979);
+    color: antiquewhite;
+}
+/* section{
+    color: antiquewhite;
+} */
+
+#confirmation {
+    color: black;
+}
+
+.white {
+    color: antiquewhite;
+}
+
+.red {
+    color: rgb(232, 111, 111);
+}
+
+.black {
+    color: black;
+}
+
 #Navbar-Id a:hover {
     background-color: black;
     color: wheat;
@@ -39,8 +63,13 @@
     justify-content: space-between;
 }
 
+.card-width {
+    width: 30rem;
+}
+
 .section-a3 {
     height: 450px;
+    background: rgba(101, 98, 98, 0.979);
     /* font-size: 1.5rem; */
 }
 
@@ -70,13 +99,7 @@
 
 .karyashala img {
     height: 150px;
-
 }
-
-.red {
-    color: red;
-}
-
 
 /* #footer1{
     font-size: 0.8vw+1rem;
@@ -107,7 +130,7 @@
 }
 
 
-.section-a2::before {
+/* .section-a2::before {
     content: "";
     position: absolute;
     top: 600px;
@@ -119,9 +142,9 @@
     height: 1100px;
     width: 100vw;
     z-index: -1;
-}
+} */
 
-#karyashala-id::before {
+/* #karyashala-id::before {
     content: "";
     background-image: url(./Images/bg-4.webp);
     position: absolute;
@@ -132,9 +155,9 @@
     height: 420px;
     width: 100vw;
     z-index: -1;
-}
+} */
 
-#confirmation::before {
+/* #confirmation::before {
     content: "";
     background-image: url(./Images/bg-5.jpg);
     background-size: cover;
@@ -147,9 +170,9 @@
     height: 1200px;
     width: 100vw;
     z-index: -1;
-}
+} */
 
-#howToApply::before {
+/* #howToApply::before {
     content: "";
     background-image: url(./Images/bg-6.jpg);
     background-size: cover;
@@ -162,7 +185,7 @@
     height: 1000px;
     width: 100vw;
     z-index: -1;
-}
+} */
 
 
 .qr_right {
@@ -201,7 +224,27 @@
         font-size: large;
     }
 
-    #karyashala-id::before {
+    .section-a3 {
+        font-size: xx-small;
+    }
+/* 
+    .card-width {
+        width: 30rem;
+    } */
+
+    /* .card-width p {
+        font-size: xx-small;
+    } */
+    .pfsmall{
+        font-size: xx-small;
+    }
+    .head-small{
+        font-size: large;
+    }
+}
+
+
+/* #karyashala-id::before {
         content: "";
         background-image: url(./Images/bg-4.webp);
         position: absolute;
@@ -213,9 +256,9 @@
         height: 3000px;
         width: 100vw;
         z-index: -1;
-    }
+    } */
 
-    #howToApply::before {
+/* #howToApply::before {
         content: "";
         background-image: url(./Images/bg-6.jpg);
         background-size: cover;
@@ -228,13 +271,13 @@
         height: 1750px;
         width: 100vw;
         z-index: -1;
-    }
+    } */
 
-    #AboutNITR::before {
+/* #AboutNITR::before {
         content: "";
         background-image: url(./Images/bg-5.jpg);
         background-size: cover;
-        /* background-repeat: repeat-y; */
+        background-repeat: repeat-y;
         position: absolute;
         bottom: 2000px;
         left: 0px;
@@ -243,6 +286,4 @@
         height: 550px;
         width: 100vw;
         z-index: -1;
-    }
-
-}
+    } */
