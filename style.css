@@ -194,6 +194,12 @@
 }
 .prof-img{
     height: 200px;
+   
+}
+.tranform:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 2;
 }
 
 
