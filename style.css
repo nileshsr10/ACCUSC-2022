@@ -1,16 +1,24 @@
 body{
     scroll-behavior: smooth;
 }
+section{
+    
+    background-image: url(./Images/bg-4.webp);
+    background-size: cover;
+    background-repeat: none;
+    z-index: -1;
+    /* opacity: 0.2; */
+}
+
+.text-justify{
+    text-align: justify;
+}
 .container {
     background-color: rgba(101, 98, 98, 0.979);
     color: antiquewhite;
 }
 .cont1{
    background-color:  rgba(101, 98, 98, 0.979);
-}
-
-.shadow{
-    box-shadow: 10px 10px rgba(15, 7, 7, 0.979);
 }
 
 #confirmation {
@@ -20,9 +28,11 @@ body{
 .white {
     color: antiquewhite;
 }
-
+.white1{
+    color: white;
+}
 .red {
-    color: rgb(232, 111, 111);
+    color: rgb(220, 30, 30);
 }
 
 .black {
